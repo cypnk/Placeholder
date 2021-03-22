@@ -20,7 +20,7 @@ $headers	= [
 	'X-XSS-Protection: 1; mode=block',
 	'X-Content-Type-Options: nosniff',
 	'Referrer-Policy: no-referrer, strict-origin-when-cross-origin',
-	'Content-Security-Policy: default-src '\'none\''
+	"Content-Security-Policy: default-src 'none'"
 ];
 
 // Add font-src 'self'; style-src 'self'; script-src 'self' etc... 
