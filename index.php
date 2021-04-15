@@ -20,6 +20,7 @@ $headers	= [
 	'X-XSS-Protection: 1; mode=block',
 	'X-Content-Type-Options: nosniff',
 	'Referrer-Policy: no-referrer, strict-origin-when-cross-origin',
+	'Permissions-Policy: interest-cohort=()',
 	"Content-Security-Policy: default-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'"
 ];
 
